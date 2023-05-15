@@ -1,0 +1,77 @@
+
+body{
+    background-color: #f0eeef;
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+    font-size: 30px;
+    overflow-x:auto;
+  
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #9c9c9c;
+  }
+  
+  th{
+    height: 45px;
+    text-align: center;
+  }
+  td{
+    width: 30px;
+    height: 50px;
+  }
+ 
+header img{
+    height: 100px;
+    width: 100px;
+}
+.header{
+    background-color:#f0eeef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    font-size: 20px
+}
+footer{
+    background-color: rgb(54, 32, 102);
+    margin: 0px;
+    text-align: center;
+    padding: 2px;
+    color: rgb(255, 255, 255); 
+    margin-top: 600px;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1402463232/vector/vector-illustration-of-worker-contractor-woman-isolated-on-over-dark-backround.jpg?s=612x612&w=0&k=20&c=-4TDU2vhM9n0dCZBsbkIbw7KKvMt5aIck0FasMP1G40=);
+    background-position: right; 
+    background-repeat: no-repeat; 
+    background-size:900px 800px;;
+}
+
+a  { text-decoration: none; 
+    font-size: 30px;
+}
+
+a:hover { text-decoration: none; }
+
+input[type="checkbox"] {
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.0em;
+    height: 1.0em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    
+  }
+
+  
