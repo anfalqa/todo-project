@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Merriweather:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -21,14 +25,17 @@
             <p>i am a software engineering student on the last semester </p>
         </section>
         <section>
-            <form action="POST">
+            <form action="#">
+                <fieldset>
+                <legend>Message Section </legend>
                 <label for="name">Name</label>
                 <input type="text" id="name" ><br>
                 <label for="email">Email</label>
                 <input type="email" id="email"><br>
                 <label for="txt"></label>
                 <textarea name="text " id="txt" cols="30" rows="10">write message here</textarea>
-            </form>
+                <input type="submit" value="Submit">
+           </fieldset></form>
         </section>
     </main>
     <footer>
