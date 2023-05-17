@@ -1,4 +1,4 @@
-
+'use strict';
 var name = prompt("What is your name?");
 var gender = prompt("What is your gender? The answer should be either male or female.");
 var age = prompt("What is your age? ");
