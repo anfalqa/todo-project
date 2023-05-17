@@ -20,7 +20,7 @@ function genderType(gender){
 
 function ageValidation(age){
     if(age>0){
-       alert("nice to meet you");
+       alert("HI !");
     }else{
         alert("invalid !!! The age should be more than zero.");
         return false;   }
@@ -31,7 +31,7 @@ genderType(gender);
 console.log(name);
 console.log(gender);
 console.log(age);
-
+console.log("the answer of the questions");
 
 var arr=["","",""];
 arr[0]=prompt("Do you make your daily plan and stick to it?");
