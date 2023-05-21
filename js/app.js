@@ -2,31 +2,31 @@
 var name = prompt("What is your name?");
 var gender = prompt("What is your gender? The answer should be either male or female.");
 var age = prompt("What is your age? ");
+ageValidation(age);
 
 function genderType(gender){
-    ageValidation(age);
-    if (gender == 'male')
-        {
+    let con = confirm(`Are you want to skip the welcoming message? \n press ok`)
+    if (con==false){
+        if (gender == 'male')
+         {
             alert("Welcome, MR. " + name);
 
         }
-        else if (gender == 'female')
+         else if (gender == 'female')
         {
             alert("Welcome, MS. " + name);
 
         } else {
             alert("invaled !! the gender should be either male or female.");
-        }}
+        }
+    }}
 
 function ageValidation(age){
-    if(age>0){
-       alert("HI !");
-    }else{
+    if(age<=0){
         alert("invalid !!! The age should be more than zero.");
-        return false;   }
+        }
 }
 
-alert("Do you want to skip the welcome message? ");
 genderType(gender);
 console.log(name);
 console.log(gender);
